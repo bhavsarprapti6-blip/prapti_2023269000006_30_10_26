@@ -48,10 +48,6 @@ def delete_student(student_id: int):
             students_db.pop(index)
             return {"message": "Student deleted successfully"}
     raise HTTPException(status_code=404, detail="Student not found")
-=======
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, Field
-from typing import List
 
 app = FastAPI(title="Student Management API")
 

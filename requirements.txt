@@ -6,5 +6,3 @@ pydantic
 fastapi
 uvicorn
 pydantic
->>>>>>> eabe3b44ec5a6bc983cc457e21fa7da64c75d07f
-pytest
